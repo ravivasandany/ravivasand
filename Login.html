@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+<Title>
+    Halaman Login
+</Title>
+
+<link rel="stylesheet" href="Asset/css/style.css">
+
+<style>
+body{
+
+    background-color: rgb(24, 22, 22);
+}
+    section.login{
+height: 100vh;
+        border: 10px solid black;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+}
+
+.form{
+background-color: rgb(40, 38, 33);
+justify-content: center;
+margin: auto;
+text-align: center;
+align-items: center;
+height: 45vh;
+width: 500px;
+border-radius: 20px;
+box-shadow: 0px 25px 40px 0px black;
+
+}
+
+#login-label{
+    color: white;
+    margin-bottom: 30px;
+    font-weight: bold;
+    
+}
+
+.username{
+
+color: white;
+margin-bottom: 30px;
+}
+
+.password{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.submit{
+    color: rgb(255, 255, 255);
+
+}
+</style>
+</head>
+
+<body>
+
+
+<section>
+    <nav id="bar-atas">
+        <ul>
+            <li><a href="index.html">Profil</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="cv.html">Harga</a></li>
+            <li><a href="tentang.html">Hubungi</a></li>
+        </ul>
+            
+                  
+                <div class="menu-mobile">
+                    <input type="checkbox">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+        
+                 </div>
+            
+            </nav>
+    
+            <nav id="humberger">
+                <ul>
+                    <li><a href="Login.html">Login</a></li>
+                    <li><a href="Blog.html">Ketentuan</a></li>
+                  
+                </ul>
+            
+            </nav>
+        
+</section>
+
+<section class="login">
+
+    
+        <form class="form" method="" action="">
+            <p id="login-label"> Harap Login Terlebih Dahulu</p>
+            <div class="username">
+                <label>Username / Email</label>
+                <br>
+                <input type="text" name="USERNAME/ID" placeholder="Masukkan Username/Id">
+            </div>
+            <div class="password">
+                <label>Password</label>
+                <br>
+                <input type="password" name="Password" placeholder=" Masukkan Password ">
+               </div>
+               
+               <div class="submit">
+            
+                <input type="submit" name="Login">
+            </div>
+        </form>
+</section>
+
+
+<script src="Asset/script.js"></script>
+</body>
+</html>

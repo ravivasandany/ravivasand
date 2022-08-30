@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <Title> Kontak Kami </Title>
+    <link rel="stylesheet" href="Asset\css\style.css">
+</head>
+
+<style>
+
+body{
+
+    height: 100vh;
+}
+#bar-atas-tentang ul li{
+    position: relative;
+    display: inline;
+    margin: 0px 50px 0px 50px;
+    
+}
+
+
+
+#bar-atas-tentang{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: center;;
+    background-size: cover;
+    margin-top: 1cm;
+    
+}
+#bar-atas-tentang ul li a{
+    text-decoration: none;
+    color: rgb(26, 24, 24);
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    
+    
+}
+#bar-atas-tentang  ul li a:hover{
+    opacity: 70%;
+
+}
+
+#bar-atas-tentang ul li{
+    position: relative;
+    display: inline;
+    margin: 0px 50px 0px 50px;
+    
+}
+
+@media (max-width:1024px) {
+
+
+#bar-atas-tentang ul li a{
+
+font-size: 40px;
+color: rgb(255, 255, 255);
+font-weight: bold;
+}
+
+
+#bar-atas-tentang{
+height: 90px;
+
+}
+
+
+
+#bar-atas-tentang ul li {
+margin: 0px 15px 0px 15px;
+}
+
+#bar-atas-tentang{
+justify-content: right;
+
+}
+
+
+#bar-atas-tentang ul li {
+flex-direction: column;
+display: flex;
+align-items: center;
+height: 9cm;
+justify-content: space-evenly;
+color: white;
+
+}
+#bar-atas-tentang ul {
+
+position: absolute;
+right: 0;
+width: 0%;
+top: 0;
+background-color: rgb(17, 16, 16);
+justify-content: space-between;
+z-index: 1;
+transition: all 1s;
+opacity: 0;
+}
+
+
+#bar-atas-tentang ul.slide{
+opacity: 100%;
+width: 50%;
+}
+
+
+
+}
+</style>
+<body>
+    
+
+    
+
+        <nav id="bar-atas-tentang">
+            <ul>
+                <li><a href="index.html">Profil</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="cv.html">Harga</a></li>
+                <li><a href="tentang.html">Hubungi</a></li>
+            </ul>
+            
+                  
+                <div class="menu-mobile">
+                    <input type="checkbox">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+        
+                 </div>
+            
+            </nav>
+
+           
+    <nav id="humberger">
+        <ul>
+            <li><a href="Login.html">Login</a></li>
+            <li><a href="Blog.html">Ketentuan</a></li>
+            
+        </ul>
+    
+    </nav>
+
+        </section>
+
+
+    
+    
+    
+    <div> 
+        <a href="index.html"> <img class="logo-profil" src="Asset\img\LOGO FutureLab.png" alt="#" > </a>
+    </div>
+
+    <div>
+    <img class="gambar-ub" src="Asset\img\Person1.png" alt="#">
+</div>
+
+    
+    <div class="border">
+        <input class="nama" type="text" name="Nama" placeholder="Nama"> <br>
+        <input class="pesan" type="text" name="Ketik" placeholder="Ketik Pesan"> <br>
+        <input class="submit" type="submit" name="Login">
+    </div>
+
+    
+        
+    
+
+   <br>
+   <br>
+   <br>
+
+<div class="bar-bawah-beranda">
+
+</div>
+<script src="Asset/script.js"></script>
+
+</body>
+</html>
+

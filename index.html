@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+<title>
+Future Lab   
+</title>
+<link rel="stylesheet" href="Asset/css/style.css">
+
+<style>
+.body{
+    background-color: black;
+}
+    .judul-beranda{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    background-color: white;
+    background-size: 10px;
+    box-shadow: 10px white;
+    color: rgb(70, 66, 66);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border-radius: 15px;
+    
+    
+    }
+
+    #futurelab{
+
+        text-align: center;
+        font-size: 70px;
+        margin-bottom: 100px;
+        font-family: serif;
+        color: white;
+        margin-top: 100px;
+    }
+
+    #keteranganjudul{
+
+text-align: center;
+font-size: 30px;
+margin-bottom: 100px;
+font-family: serif;
+color: white;
+margin-top: 100px;
+}
+    
+    .keterangan-1{
+
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 100px;
+        font-family: serif;
+        color: rgb(20, 20, 20);
+        margin-top: 80px;
+    
+    }
+
+    .keterangan-2{
+
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 100px;
+        font-family: serif;
+        color: rgb(255, 255, 255);
+        margin-top: 110px;
+
+
+    
+    }
+
+    .keterangan-3{
+
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 100px;
+        font-family: serif;
+        color: rgb(17, 16, 16);
+        margin-top: 80px;
+
+    }
+
+    .keterangan-4{
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 100px;
+        font-family: serif;
+        color: rgb(255, 255, 255);
+        margin-top: 60px; }
+
+        .button-about-us{
+    
+    border: 4px solid rgb(174, 202, 14);
+    text-decoration: none;
+    position: absolute;
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 60px;
+    color: rgb(174, 202, 14);
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    z-index: 5;
+}
+
+.button-about-us:hover{
+    color: aliceblue;
+  border-color: aliceblue; }
+
+  .button-hubungi-kami{
+    
+    border: 4px solid rgb(174, 202, 14);
+    text-decoration: none;
+    position: absolute;
+    padding: 20px 40px 20px 40px;
+    left: 30px;
+    
+   margin-top: 30px;
+    color: rgb(174, 202, 14);
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    z-index: 1;
+}
+
+.button-hubungi-kami:hover{
+    color: aliceblue;
+  border-color: aliceblue;
+
+    }
+    section#background-1{
+
+        
+    
+        background-image: url(background-1.jpg);
+        background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+   height: 150vh;
+    }
+    
+    
+    section#background-2{
+
+        height: 115vh;
+        background-color: white;
+    }
+
+    .keterangan-layanan{
+
+        width: 70%;
+    }
+
+    section#background-3{
+
+        height:130vh;
+        background-color: black;
+        
+    }
+
+    #keterangan-fitur-1{
+
+      
+        display: flex;
+        font-size: 20px;
+       align-items: center;
+       text-decoration: none;
+       
+    }
+
+    #keterangan-fitur-1 li {
+
+        text-decoration: none;
+        margin: auto;
+        margin-top: 110px;
+
+    }
+    
+    #keterangan-fitur-2{
+
+      
+display: flex;
+font-size: 20px;
+align-items: center;
+text-decoration: none;
+
+}
+
+#keterangan-fitur-2 li {
+
+text-decoration: none;
+margin: auto;
+margin-top: 80px;
+
+}
+
+#keterangan-fitur-3{
+
+      
+display: flex;
+font-size: 20px;
+align-items: center;
+text-decoration: none;
+
+}
+
+#keterangan-fitur-3 li {
+
+text-decoration: none;
+margin: auto;
+margin-top: 80px;
+
+}
+
+    section#background-4{
+
+
+    height: 90vh;
+    background-color: white;
+    }
+     
+    #keunggulan-1{
+
+      
+display: flex;
+font-size: 20px;
+align-items: center;
+text-decoration: none;
+color: black;
+
+}
+
+#keunggulan-1 li {
+
+text-decoration: none;
+margin: auto;
+margin-top: 80px;
+
+}
+
+#keunggulan-2{
+
+      
+display: flex;
+font-size: 20px;
+align-items: center;
+text-decoration: none;
+color: black;
+
+}
+
+#keunggulan-2 li {
+
+text-decoration: none;
+margin: auto;
+margin-top: 80px;
+
+}
+
+    section#background-5{
+
+
+        height: 50vh;
+        background-color: black;
+    }
+     /* Responsive Breakpoint */
+    
+
+     @media (max-width:1024px) { 
+    
+        .button-produk{
+            margin-left: 16.5cm;
+        }
+
+     .button-profil{
+         margin-left: 9cm;
+
+      
+     }
+
+.button-news{
+    margin-left: 13cm ;
+}
+         
+     
+     
+    }
+
+        </style>
+
+
+    </head>
+
+<body>
+
+
+
+
+    <section id="background-1">
+
+            
+            
+    <nav id="bar-atas">
+        <ul>
+            <li><a href="index.html">Profil</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="cv.html">Harga</a></li>
+            <li><a href="tentang.html">Hubungi</a></li>
+        </ul>
+    
+          
+        <div class="menu-mobile">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+
+         </div>
+    
+    </nav>
+
+
+    <nav id="humberger">
+        <ul>
+            <li><a href="Login.html">Login</a></li>
+            <li><a href="Blog.html">Ketentuan</a></li>
+            
+        </ul>
+    
+    </nav>
+
+    <div> 
+        <a href="index.html"> <img class="logo-profil" src="Asset\img\LOGO FutureLab.png" alt="#" > </a>
+    </div>
+    
+       
+        <div class="nama">
+            <p id="futurelab"> Future Lab Web</p>
+            <p id="keteranganjudul"> Melayani Jasa Pembuatan Web</p>
+        </div>
+
+        <div >
+
+            <a class="button-about-us" href="https://chat.whatsapp.com/J6eSeTcsWEu5w1cbXAwxgR" align="center"> Pesan Sekarang </a>
+                     
+         
+            </div>
+         
+
+</section>
+
+<section id="background-2">
+
+<div class="keterangan-1">
+    <P> Kami Melayani Jasa Pembuatan Web Untuk</P>
+
+    <div> 
+        <img class="keterangan-layanan" src="Asset\img\keterangan layanan.png" alt="#" > </a>
+    </div>
+    
+</div>
+
+
+</section>
+
+<section id="background-3">
+
+<div class="keterangan-2"> 
+    <p> Fitur-Fitur yang Kami Sediakan</p>
+
+    <div id="keterangan-fitur-1">
+
+  <li> <a> Manajemen Produk  </P></li>
+    <li> <a> SEO Optimization  </P></li>   
+        <li> <a> Social Media Integration  </P></li>     
+            <li> <a> Chat Online WA </P></li>              
+  
+
+
+</div>
+
+
+    <div id="keterangan-fitur-2">
+
+  <li> <a> Pengaturan Artikel  </P></li>
+    <li> <a> Email Sesuai Domain  </P></li>   
+        <li> <a> Social Media Sharing  </P></li>     
+            <li> <a> Ongkos Kirim </P></li>              
+  
+
+
+</div>
+
+
+
+    <div id="keterangan-fitur-3">
+
+  <li> <a> Dashboard Admin  </P></li>
+    <li> <a> Akses Cpanel  </P></li>   
+        <li> <a> Mobile Friendly  </P></li>     
+            <li> <a> Security SSL </P></li>              
+  
+
+
+</div>
+
+
+</section>
+
+<section id="background-4">
+    <div class="keterangan-3">
+        <p> Keunggulan Future Lab Web</p>
+
+
+        <div id="keunggulan-1">
+
+            <li> <a> Berpengalaman  </P></li>
+              <li> <a> Harga Terjangkau  </P></li>   
+                  <li> <a> Pelayanan Ramah & Cepat </P></li>     
+                               
+            
+          
+          
+          </div>
+
+          <div id="keunggulan-2">
+
+            <li> <a> Berpeluang Menjadi Affiliate Kami </P></li>
+              <li> <a> Bergaransi & Support  </P></li>   
+                  <li> <a> Sudah Menangani Banyak Client  </P></li>     
+                               
+            
+          
+          
+          </div>
+    
+
+
+</section>
+
+<section id="background-5">
+    <div class="keterangan-4">
+        <p> Tertarik? Hubungi Kami</p>
+
+
+<div >
+
+<a class="button-hubungi-kami" href="https://chat.whatsapp.com/J6eSeTcsWEu5w1cbXAwxgR" > Hubungi Kami </a>
+                     
+         
+</div>
+
+
+
+
+
+
+</section>
+<div class="bar-bawah-beranda">
+
+</div>
+
+
+<script src="Asset/script.js"></script>
+</body>
+</html>
